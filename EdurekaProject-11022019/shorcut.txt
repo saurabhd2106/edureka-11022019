@@ -1,0 +1,10 @@
+
+	
+	Saving a file -- CTRL + S
+	Saving all file -- shift + ctrl + s
+	
+	Executing Java code -- ALT + SHIFT + X, J
+	
+	Type "syso" + ctrl + spacebar + enter --> To print System.out.println() method
+	
+	Type "main" + ctrl + spacebar + enter --> To print main method 
