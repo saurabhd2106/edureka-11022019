@@ -1,4 +1,4 @@
-package day4;
+package day5;
 
 public class DemoGuru99 {
 
@@ -10,7 +10,13 @@ public class DemoGuru99 {
 
 		guru.login("mngr178621", "byhAsYq");
 
+		guru.addCustomer();
+
+		String customerId = guru.getCustomerId();
+
+		System.out.println("Customer Id : " + customerId);
 		
+		guru.addAccount(customerId);
 	}
 
 }

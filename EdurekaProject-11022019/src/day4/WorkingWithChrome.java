@@ -18,7 +18,7 @@ public class WorkingWithChrome {
 		
 		driver.manage().window().setSize(dim);
 		
-//		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		
 		driver.manage().deleteAllCookies();
 		
