@@ -16,7 +16,7 @@ public class DemoGuru99 {
 
 		System.out.println("Customer Id : " + customerId);
 		
-		guru.addAccount(customerId);
+	//	guru.addAccount(customerId);
 	}
 
 }
