@@ -1,0 +1,83 @@
+
+
+		
+		
+		Methods - where  logic is written, Data gets modified
+		
+	x = 5	-->	f(x) = x + 10; --> f(5) = 15
+	
+	
+	
+		return_type	name_of_method (arg) {
+						
+						// body
+						}
+		when a method doesnot return anything --> return_type is void
+		
+		
+		
+		Constructors --> 
+		
+		Constructor is a method which has same name as that of class
+		It doesnot return anything not even null 
+		It is used to initialize default variables
+		
+		It is called when an object is created
+		If a class doesnot have a constructor, JVM will create a default constructor for that class
+		
+		
+		OOP Concepts
+		Object oriented programming concepts
+		
+		- Classes and Object concept (Done)
+		- Encapsulation (Done)
+		- Inheritance (Done)
+		
+		- Polymorphism
+			- Over Loading 
+			- Over Riding
+		- Abstraction
+			- Abstract Class
+			- Interfaces
+		
+		
+		
+		
+		Webpage -- 10 web elements -- implicit wait = 6 sec
+		
+		
+		worst case scenario
+			- Each element appearing at 6th sec  = 6 * 10 = 60
+		
+		Best possible scenario
+		
+			- All the element are already there = 0 sec (~milli seconds)
+		
+		
+		Access Modifier and class Modifier
+		
+		Two ways to access variables and Methods
+			- By creating an object
+			- By Inheritance
+		
+		4 access modifiers
+			- public
+			- private
+			
+			- protected
+			- default (no keyword is used)
+		
+		Both protected and default can be used within same package everywhere by both means
+		but outside a package default variables and methods cannot be accessed at all
+		and protected variables and methods can be accessed but only via inheritance
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
