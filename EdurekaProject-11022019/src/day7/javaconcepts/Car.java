@@ -1,5 +1,11 @@
 package day7.javaconcepts;
 
-public class Car {
+import day8.javaTopics.Vehicle;
+
+public class Car extends Vehicle{
+	
+	public void restart(){
+		engineSize = 8000;
+	}
 
 }
