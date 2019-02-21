@@ -1,4 +1,7 @@
 
+Collection playlist:
+	https://www.youtube.com/watch?v=mkCTxtLe7XU&list=PLB841C370FAFB8EC7
+	
 
 		
 		
@@ -71,10 +74,28 @@
 		but outside a package default variables and methods cannot be accessed at all
 		and protected variables and methods can be accessed but only via inheritance
 		
+		//---------------------------------------------------------
 		
+		Final
+		- variable
+			- primitive
+				A final primitive variable -- Value can never be changed
+			- non primitive
+				A final non primitive variable can never be reinitialized
+				
+				One can change the state of the objects
+			
+			
 		
+		- method
+			-	A Final method can never be over ridden
+			
 		
-		
+		- Class
+			- A final class can never be extended
+			
+			
+			example: String class
 		
 		
 		

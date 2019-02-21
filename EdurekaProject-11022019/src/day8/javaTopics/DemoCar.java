@@ -24,8 +24,11 @@ public class DemoCar {
 
 		System.out.println("------------------------------------------");
 		
-		Vehicle i20 = new Car(); //It will call constructor of both parent and child (in same order)
+		final Vehicle i20 = new Car(); //It will call constructor of both parent and child (in same order)
 
+		i20.engineSize = 90;
+		i20.engineSize = 80;
+		
 		i20.start();
 
 	}
