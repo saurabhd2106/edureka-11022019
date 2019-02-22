@@ -113,4 +113,55 @@ Collection playlist:
 			- Employee Org
 			
 			- create a menthod to print employee info
+			
+	//=============================================================
+	
+	
+	
+	static keyword
+	
+		- variables
+		- methods
+		- blocks (static block)
+		
+		- classes (nested classes)
+		
+	Scenario 1:
+	
+	- Keep a count of number of instance initialized
+	
+	Employee saurabh = new Employee();
+	
+	Employee gaurav = new Employee();
+	
+	Employee hargun = new Employee();
+	
+	Scenario 2:
+	
+	which gives you a random value 
+	
+	all objects share the same value (Name of the organization)
+	
+	static variables and methods can be accessed before objects are created
+	
+			Final
+				- variable
+					- primitive
+						A final primitive variable -- Value can never be changed
+					- non primitive
+						A final non primitive variable can never be reinitialized
+						
+						One can change the state of the objects
+					
+					
+				
+				- method
+					-	A Final method can never be over ridden
+					
+				
+				- Class
+					- A final class can never be extended
+					
+					
+					example: String class
 		
