@@ -97,8 +97,20 @@ Collection playlist:
 			
 			example: String class
 		
+22-02-2019 //-------------------------------------------------------------------		
 		
+		Scenario:
+		Navigate to any ecomerce site
+		Get the count of link
+		Get url from a link
+		Iterate over each link and print its linktext and URL
 		
+		Static keyword explanation scenario:
 		
-		
+		- Create a class called Employee
+			- employeeId (should be generated as an incremental value for each employee)
+			- Employee Name
+			- Employee Org
+			
+			- create a menthod to print employee info
 		
