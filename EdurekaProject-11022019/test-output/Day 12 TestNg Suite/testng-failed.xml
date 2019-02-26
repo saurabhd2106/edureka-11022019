@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Day 12 TestNg Suite]">
+  <test name="Sanity(failed)">
+    <classes>
+      <class name="day11.Guru99Project">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyTitleOfThePage"/>
+        </methods>
+      </class> <!-- day11.Guru99Project -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+</suite> <!-- Failed suite [Day 12 TestNg Suite] -->

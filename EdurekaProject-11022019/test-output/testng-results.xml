@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Execution suite" duration-ms="79" started-at="2019-02-26T03:19:59Z" finished-at="2019-02-26T03:19:59Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestNgTesting.testcase4()[pri:1000, instance:day12.TestNgTesting@3a82f6ef]" name="testcase4" class="day12.TestNgTesting"/>
+        <method signature="TestNgTesting.testcase6()[pri:3000, instance:day12.TestNgTesting@3a82f6ef]" name="testcase6" class="day12.TestNgTesting"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Regression test" duration-ms="79" started-at="2019-02-26T03:19:59Z" finished-at="2019-02-26T03:19:59Z">
+      <class name="day12.TestNgTesting">
+        <test-method status="PASS" signature="beforeAClassLoads()[pri:0, instance:day12.TestNgTesting@3a82f6ef]" name="beforeAClassLoads" is-config="true" duration-ms="19" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAClassLoads -->
+        <test-method status="PASS" signature="beforeAMethod()[pri:0, instance:day12.TestNgTesting@3a82f6ef]" name="beforeAMethod" is-config="true" duration-ms="1" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAMethod -->
+        <test-method status="PASS" signature="testcase4()[pri:1000, instance:day12.TestNgTesting@3a82f6ef]" name="testcase4" duration-ms="7" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method status="PASS" signature="afterAMethod()[pri:0, instance:day12.TestNgTesting@3a82f6ef]" name="afterAMethod" is-config="true" duration-ms="0" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="beforeAMethod()[pri:0, instance:day12.TestNgTesting@3a82f6ef]" name="beforeAMethod" is-config="true" duration-ms="0" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAMethod -->
+        <test-method status="PASS" signature="testcase6()[pri:3000, instance:day12.TestNgTesting@3a82f6ef]" name="testcase6" duration-ms="4" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method status="PASS" signature="afterAMethod()[pri:0, instance:day12.TestNgTesting@3a82f6ef]" name="afterAMethod" is-config="true" duration-ms="2" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="afterAClass()[pri:0, instance:day12.TestNgTesting@3a82f6ef]" name="afterAClass" is-config="true" duration-ms="1" started-at="2019-02-26T08:49:59Z" finished-at="2019-02-26T08:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAClass -->
+      </class> <!-- day12.TestNgTesting -->
+    </test> <!-- Regression test -->
+  </suite> <!-- TestNG Execution suite -->
+</testng-results>

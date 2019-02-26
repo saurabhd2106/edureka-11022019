@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Day 12 TestNg Suite">
+  <test name="Sanity">
+    <packages>
+        <package name="day11"></package>
+    </packages>
+  </test> <!-- Sanity -->
+</suite> <!-- Day 12 TestNg Suite -->

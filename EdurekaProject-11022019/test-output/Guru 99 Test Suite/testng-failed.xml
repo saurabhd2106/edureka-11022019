@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru 99 Test Suite]" parallel="tests">
+  <test name="Edge Test(failed)" parallel="tests">
+    <parameter name="userPass" value="byhAsYq"/>
+    <parameter name="userId" value="mngr178621"/>
+    <parameter name="browserType" value="edge"/>
+    <classes>
+      <class name="day12.Guru99Project">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="verifyTitleOfThePage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day12.Guru99Project -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="userPass" value="byhAsYq"/>
+    <parameter name="userId" value="mngr178621"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="day12.Guru99Project">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="verifyTitleOfThePage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day12.Guru99Project -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="userPass" value="byhAsYq"/>
+    <parameter name="userId" value="mngr178621"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="day12.Guru99Project">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="verifyTitleOfThePage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day12.Guru99Project -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Guru 99 Test Suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="TestNG Execution suite">
+  <test name="Regression test">
+      <groups>
+          <run>
+              <include name="Sanity"></include>
+          </run>
+      </groups>
+    <classes>
+      <class name="day12.TestNgTesting"></class>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
